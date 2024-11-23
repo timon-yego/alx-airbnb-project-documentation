@@ -47,7 +47,7 @@ Output (Error):
   "error": "Invalid credentials"
 }
 
-Performance Criteria
+Performance Criteria:
 API must respond within 200ms under typical load.
 Must support 1000 concurrent users logging in simultaneously.
 
@@ -96,12 +96,12 @@ Output:
   }
 ]
 
-Validation Rules
+Validation Rules:
 Title and location are mandatory fields.
 Price must be a positive number.
 Amenities must be from a predefined list.
 
-Performance Criteria
+Performance Criteria:
 Response time for search requests must be under 300ms.
 Must handle 500 simultaneous search requests.
 
@@ -141,10 +141,10 @@ Output:
   "status": "confirmed"
 }
 
-Validation Rules
+Validation Rules:
 Booking dates must not overlap with existing bookings for the same property.
 Start date must be in the future.
 
-Performance Criteria
+Performance Criteria:
 Response time for creating a booking must be under 250ms.
 System must handle 2000 booking requests per minute.
